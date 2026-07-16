@@ -1,10 +1,17 @@
-# Website Portfolio
+# Personal Portfolio Website
 
-Phillip Altidor — personal portfolio site showcasing data analytics and data engineering projects.
+Phillip Altidor — personal portfolio site built with semantic HTML5 and CSS, showcasing data analytics and data engineering work.
 
-## Description
+## Status
 
-This repository contains a simple static portfolio built with HTML. It includes an About page, Projects, Resume, Contact, and an index/home page with a hero image.
+Work in progress — being rebuilt from scratch as a learning exercise. HTML structure is being completed first, page by page, before CSS styling is applied.
+
+## Pages
+
+- **Home** (`index.html`) — name, title, welcome blurb, profile image, navigation
+- **About** (`about.html`) — biography, education, skills, hobbies
+- **Projects** (`projects.html`) — at least three projects, each with title, description, technologies used, course/professor, and a link to details
+- **Contact** (`contact.html`) — contact form (Name, Email, Subject, Message)
 
 ## View locally
 
@@ -22,21 +29,13 @@ python3 -m http.server 8000
 
 ## Project structure
 
-- `index.html` — home/hero
-- `about.html` — About Me
-- `projects.html` — Projects listing
-- `resume.html` — Resume page or link to PDF
-- `contact.html` — contact details
-- `css/` — stylesheet(s)
-- `js/` — JavaScript (if needed)
+- `index.html` — Home page
+- `about.html` — About page
+- `projects.html` — Projects page
+- `contact.html` — Contact page
+- `style.css` — site-wide stylesheet
 - `images/` — images used by the site
 
 ## Notes
 
 - This is a static site — you can host it on GitHub Pages by enabling Pages in the repository settings.
-- Consider adding a `.gitignore` file if you have local build artifacts or OS files to exclude.
-
-## Contact
-
-Phillip Altidor — see `contact.html` for contact details.
-
